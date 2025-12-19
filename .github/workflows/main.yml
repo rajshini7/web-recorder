@@ -40,6 +40,12 @@ jobs:
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           ALERT_TO: ${{ secrets.ALERT_TO }}
           HEADLESS: ${{ secrets.HEADLESS }}
+      - name: Upload replay report
+        uses: actions/upload-artifact@v4
+        with:
+          name: replay-report
+          path: replay-report.html
+
 
       # 6️⃣ Optional: Debug versions
       - name: Debug info
