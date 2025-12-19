@@ -11,23 +11,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repository
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node.js with caching
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: "npm"
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
 
+      # 4️⃣ Install Playwright browsers
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
+      # 5️⃣ Run replay script with secrets
       - name: Run replay
-        run: npm run replay
+        run: npx ts-node automated/replay.ts
         env:
           EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
           EMAIL_PORT: ${{ secrets.EMAIL_PORT }}
@@ -36,8 +41,9 @@ jobs:
           ALERT_TO: ${{ secrets.ALERT_TO }}
           HEADLESS: ${{ secrets.HEADLESS }}
 
+      # 6️⃣ Optional: Debug versions
       - name: Debug info
         run: |
           node -v
           npm -v
-          ts-node -v
+          npx ts-node -v
