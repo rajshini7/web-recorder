@@ -9,55 +9,43 @@
       "firstP": "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands.",
       "metaDescription": ""
     },
-    "timestamp": 1766126434139,
+    "timestamp": 1766130611144,
     "isInitial": true
   },
   {
-    "selector": "a[href=\"/wiki/Panthera\"]",
+    "selector": "a[href=\"/wiki/Felidae\"]",
     "url": "https://en.wikipedia.org/wiki/Tiger",
-    "target_href": "https://en.wikipedia.org/wiki/Panthera",
+    "target_href": "https://en.wikipedia.org/wiki/Felidae",
     "content": {
-      "title": "Panthera - Wikipedia",
-      "h1": "Panthera",
-      "firstP": "Panthera[note 1] is a genus within the family Felidae, and one of two extant genera in the subfamily Pantherinae. It contains the largest living members of the cat family. There are five living species: the jaguar, leopard, lion, snow leopard and tiger. Numerous extinct species are also named, including the cave lion and American lion.",
+      "title": "Felidae - Wikipedia",
+      "h1": "Felidae",
+      "firstP": "Felidae (/ˈfiːləˌdiː/ FEE-lə-dee[3]) is the family of mammals in the order Carnivora colloquially referred to as cats. A member of this family is also called a felid (/ˈfiːlɪd, -ləd/ FEE-lid, -⁠ləd[4][5]).[6][7][8][9]",
       "metaDescription": ""
     },
-    "timestamp": 1766126434590
+    "timestamp": 1766130612148
   },
   {
-    "selector": "a[href=\"/wiki/American_lion\"]",
-    "url": "https://en.wikipedia.org/wiki/Panthera",
-    "target_href": "https://en.wikipedia.org/wiki/American_lion",
+    "selector": "a[href=\"/wiki/Obligate_carnivores\"]",
+    "url": "https://en.wikipedia.org/wiki/Felidae",
+    "target_href": "https://en.wikipedia.org/wiki/Obligate_carnivores",
     "content": {
-      "title": "American lion - Wikipedia",
-      "h1": "American lion",
-      "firstP": "The American lion (Panthera atrox (/ˈpænθərə ˈætrɒks/), with the species name meaning \"savage\" or \"cruel\",[2] also called the North American lion) is an extinct pantherine cat native to North America during the Late Pleistocene from around 129,000 to 12,800 years ago.[3][4][5][6] Genetic evidence suggests that its closest living relative is the lion (Panthera leo), with the American lion representing an offshoot from the lineage of the largely Eurasian cave lion (Panthera spelaea), from which it is suggested to have split around 165,000 years ago. Its fossils have been found across North America, from Canada to Mexico.[7][8] It was about 25% larger than the modern lion, making it one of the largest known felids to ever exist, and a dominant apex predator in North American ecosystems,[9] alongside the sabertooth cats Smilodon and Homotherium.[10] It has been suggested, like modern lions, they were social animals, although this is not known for sure.[11][12] Unlike modern lions, American lions may have been a diurnal predator.[13]",
+      "title": "Carnivore - Wikipedia",
+      "h1": "Carnivore",
+      "firstP": "A carnivore /ˈkɑːrnɪvɔːr/, or meat-eater (Latin, caro, genitive carnis, meaning meat or flesh and vorare meaning \"to devour\"), is an animal or plant whose nutrition and energy requirements are met by consumption of animal tissues (mainly muscle, fat and other soft tissues) as food, whether through predation or scavenging.[1][2]",
       "metaDescription": ""
     },
-    "timestamp": 1766126436493
+    "timestamp": 1766130615506
   },
   {
-    "selector": "a[href=\"/wiki/Lion\"]",
-    "url": "https://en.wikipedia.org/wiki/American_lion",
-    "target_href": "https://en.wikipedia.org/wiki/Lion",
+    "selector": "a[href=\"/wiki/Taurine\"]",
+    "url": "https://en.wikipedia.org/wiki/Carnivore#Obligate_carnivores",
+    "target_href": "https://en.wikipedia.org/wiki/Taurine",
     "content": {
-      "title": "Lion - Wikipedia",
-      "h1": "Lion",
-      "firstP": "The lion (Panthera leo) is a large cat of the genus Panthera, currently ranging only in Sub-Saharan Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail. It is sexually dimorphic; adult male lions are larger than females and have a more prominent mane that usually obscures the ears and extends to the shoulders.",
+      "title": "Taurine - Wikipedia",
+      "h1": "Taurine",
+      "firstP": ".mw-parser-output .ib-chembox{border-collapse:collapse;text-align:left}.mw-parser-output .ib-chembox td,.mw-parser-output .ib-chembox th{border:1px solid #a2a9b1;width:40%}.mw-parser-output .ib-chembox td+td{width:60%}@media screen{html.skin-theme-clientpref-night .mw-parser-output .ib-chembox figure:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent){background:var(--background-color-inverted,#f8f9fa)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .ib-chembox figure:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent){background:var(--background-color-inverted,#f8f9fa)}}",
       "metaDescription": ""
     },
-    "timestamp": 1766126440212
-  },
-  {
-    "selector": "a[href=\"/wiki/Body_(biology)\"]",
-    "url": "https://en.wikipedia.org/wiki/Lion",
-    "target_href": "https://en.wikipedia.org/wiki/Body_(biology)",
-    "content": {
-      "title": "Body (biology) - Wikipedia",
-      "h1": "Body (biology)",
-      "firstP": " are in one part or whole. There are organisms which change from single cells to whole organisms: for example, slime molds. For them the term 'body' would mean the multicellular stage. Other uses:",
-      "metaDescription": ""
-    },
-    "timestamp": 1766126442783
+    "timestamp": 1766130617896
   }
 ]
