@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: replay-report
-          path: reports/replay-report.html
+          path: replay-report.html
 
 
       # 6️⃣ Optional: Debug versions
