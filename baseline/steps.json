@@ -9,43 +9,43 @@
       "firstP": "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands.",
       "metaDescription": ""
     },
-    "timestamp": 1766130611144,
+    "timestamp": 1766136234609,
     "isInitial": true
   },
   {
-    "selector": "a[href=\"/wiki/Felidae\"]",
+    "selector": "a[href=\"/wiki/Panthera\"]",
     "url": "https://en.wikipedia.org/wiki/Tiger",
-    "target_href": "https://en.wikipedia.org/wiki/Felidae",
+    "target_href": "https://en.wikipedia.org/wiki/Panthera",
     "content": {
-      "title": "Felidae - Wikipedia",
-      "h1": "Felidae",
-      "firstP": "Felidae (/ˈfiːləˌdiː/ FEE-lə-dee[3]) is the family of mammals in the order Carnivora colloquially referred to as cats. A member of this family is also called a felid (/ˈfiːlɪd, -ləd/ FEE-lid, -⁠ləd[4][5]).[6][7][8][9]",
+      "title": "Panthera - Wikipedia",
+      "h1": "Panthera",
+      "firstP": "Panthera[note 1] is a genus within the family Felidae, and one of two extant genera in the subfamily Pantherinae. It contains the largest living members of the cat family. There are five living species: the jaguar, leopard, lion, snow leopard and tiger. Numerous extinct species are also named, including the cave lion and American lion.",
       "metaDescription": ""
     },
-    "timestamp": 1766130612148
+    "timestamp": 1766136244201
   },
   {
-    "selector": "a[href=\"/wiki/Obligate_carnivores\"]",
-    "url": "https://en.wikipedia.org/wiki/Felidae",
-    "target_href": "https://en.wikipedia.org/wiki/Obligate_carnivores",
+    "selector": "a[href=\"/wiki/Pantherinae\"]",
+    "url": "https://en.wikipedia.org/wiki/Panthera",
+    "target_href": "https://en.wikipedia.org/wiki/Pantherinae",
     "content": {
-      "title": "Carnivore - Wikipedia",
-      "h1": "Carnivore",
-      "firstP": "A carnivore /ˈkɑːrnɪvɔːr/, or meat-eater (Latin, caro, genitive carnis, meaning meat or flesh and vorare meaning \"to devour\"), is an animal or plant whose nutrition and energy requirements are met by consumption of animal tissues (mainly muscle, fat and other soft tissues) as food, whether through predation or scavenging.[1][2]",
+      "title": "Pantherinae - Wikipedia",
+      "h1": "Pantherinae",
+      "firstP": "The Pantherinae is a subfamily of the Felidae; it was named and first described by Reginald Innes Pocock in 1917 as only including the Panthera species,[2] but later also came to include the clouded leopards (genus Neofelis). The Pantherinae genetically diverged from a common ancestor between 9.32 to 4.47 million years ago and 10.67 to 3.76 million years ago.[3][4]",
       "metaDescription": ""
     },
-    "timestamp": 1766130615506
+    "timestamp": 1766136250158
   },
   {
-    "selector": "a[href=\"/wiki/Taurine\"]",
-    "url": "https://en.wikipedia.org/wiki/Carnivore#Obligate_carnivores",
-    "target_href": "https://en.wikipedia.org/wiki/Taurine",
+    "selector": "a[href=\"/wiki/Common_ancestor\"]",
+    "url": "https://en.wikipedia.org/wiki/Pantherinae",
+    "target_href": "https://en.wikipedia.org/wiki/Common_ancestor",
     "content": {
-      "title": "Taurine - Wikipedia",
-      "h1": "Taurine",
-      "firstP": "td,.mw-parser-output .ib-chembox th{border:1px solid #a2a9b1;width:40%}.mw-parser-output .ib-chembox td+td{width:60%}@media screen{html.skin-theme-clientpref-night .mw-parser-output .ib-chembox figure:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent){background:var(--background-color-inverted,#f8f9fa)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .ib-chembox figure:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent){background:var(--background-color-inverted,#f8f9fa)}}",
+      "title": "Common descent - Wikipedia",
+      "h1": "Common descent",
+      "firstP": "Common descent is a concept in evolutionary biology applicable when one species is the ancestor of two or more species later in time. According to modern evolutionary biology, all living beings could be descendants of a unique ancestor commonly referred to as the last universal common ancestor (LUCA) of all life on Earth.[1][2][3][4]",
       "metaDescription": ""
     },
-    "timestamp": 1766130617896
+    "timestamp": 1766136252783
   }
 ]
