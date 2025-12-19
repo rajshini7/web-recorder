@@ -109,6 +109,8 @@ async function extractContent(page: Page): Promise<ContentSnapshot> {
   }
 
   const results: StepResult[] = [];
+  let hasMismatch = false;
+
   let failureEmailSent = false;
 
   const browser: Browser = await chromium.launch({
@@ -138,6 +140,11 @@ async function extractContent(page: Page): Promise<ContentSnapshot> {
       const recordedFP = normalize(step.content.firstP);
       const liveFP = normalize(live.firstP);
       const pass = recordedFP === liveFP;
+
+if (!pass) {
+  hasMismatch = true;
+}
+
 
       results.push({
         ...step,
