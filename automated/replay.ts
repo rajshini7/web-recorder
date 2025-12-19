@@ -1,4 +1,3 @@
-import "dotenv/config";
 import { chromium, Browser, Page } from "playwright";
 import fs from "fs";
 import path from "path";
@@ -32,7 +31,7 @@ type StepResult = Step & {
 
 /* ================= PATHS ================= */
 
-const OUT_DIR = path.join(process.cwd(), "steps");
+const OUT_DIR = path.join(process.cwd(), "baseline");
 const OUT_FILE = path.join(OUT_DIR, "steps.json");
 const REPORT_FILE = path.join(process.cwd(), "replay-report.html");
 
@@ -82,18 +81,39 @@ async function extractContent(page: Page): Promise<ContentSnapshot> {
 /* ================= MAIN ================= */
 
 (async function main() {
-  const steps = loadSteps();
+  // Load recorded steps
+  let steps: Step[] = [];
+  try {
+    steps = loadSteps();
+  } catch (err) {
+    console.error("Cannot load recorded steps:", err);
+    process.exit(1);
+  }
+
   if (!steps.length) {
     console.log("No recorded steps found.");
-    return;
+    process.exit(0);
+  }
+
+  // Read required secrets from environment
+  const EMAIL_HOST = process.env.EMAIL_HOST;
+  const EMAIL_PORT = process.env.EMAIL_PORT;
+  const EMAIL_USER = process.env.EMAIL_USER;
+  const EMAIL_PASS = process.env.EMAIL_PASS;
+  const ALERT_TO = process.env.ALERT_TO;
+  const HEADLESS = process.env.HEADLESS !== "false";
+
+  if (!EMAIL_HOST || !EMAIL_PORT || !EMAIL_USER || !EMAIL_PASS || !ALERT_TO) {
+    console.error("Missing required email environment variables!");
+    process.exit(1);
   }
 
   const results: StepResult[] = [];
   let failureEmailSent = false;
 
   const browser: Browser = await chromium.launch({
-    headless: false,
-    slowMo: 120,
+    headless: HEADLESS,
+    slowMo: 50,
   });
 
   const context = await browser.newContext();
@@ -108,10 +128,10 @@ async function extractContent(page: Page): Promise<ContentSnapshot> {
 
       await page.goto(step.target_href, {
         waitUntil: "domcontentloaded",
-        timeout: 15000,
+        timeout: 30000,
       });
 
-      await page.waitForTimeout(1500);
+      await page.waitForTimeout(1000);
 
       const live = await extractContent(page);
 
@@ -139,7 +159,7 @@ async function extractContent(page: Page): Promise<ContentSnapshot> {
         );
       }
 
-      await page.waitForTimeout(600);
+      await page.waitForTimeout(500);
     }
   } catch (err) {
     console.error("Replay crashed:", err);
@@ -152,7 +172,7 @@ async function extractContent(page: Page): Promise<ContentSnapshot> {
           url: "N/A",
           recordedFirstP: "",
           liveFirstP: "",
-          reason: "Browser closed unexpectedly or script crashed",
+          reason: err instanceof Error ? err.message : String(err),
         })
       );
     }
