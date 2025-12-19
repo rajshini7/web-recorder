@@ -11,26 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Node.js with caching
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: "npm"
 
-      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Install Playwright browsers
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      # 5️⃣ Run replay script
       - name: Run replay
         run: npm run replay
         env:
@@ -41,11 +36,8 @@ jobs:
           ALERT_TO: ${{ secrets.ALERT_TO }}
           HEADLESS: ${{ secrets.HEADLESS }}
 
-      # 6️⃣ Optional debug info
       - name: Debug info
         run: |
           node -v
           npm -v
           ts-node -v
-
-        run: npm run replay
