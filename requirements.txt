@@ -1,0 +1,20 @@
+
+@playwright/test: ^1.57.0
+playwright: ^1.57.0
+ts-node: ^10.9.2
+typescript: ^5.9.3
+
+# Quick setup (PowerShell)
+# 1) Install Node.js LTS from https://nodejs.org (manual on Windows)
+# 2) From project root:
+#    cd C:\web-recorder
+#    npm install
+# 3) Install Playwright browser binaries (required to run tests/scripts that launch browsers):
+#    npx playwright install
+
+# Notes
+# - Prefer `package.json` and a lockfile (`package-lock.json`/`pnpm-lock.yaml`) to pin
+#   exact dependency versions for reproducible installs. To create a lockfile, run
+#   `npm install` and commit the generated `package-lock.json`.
+# - If you want a pure Python-style `requirements.txt` for a different toolchain, tell me
+#   which packages you need and I'll generate it.

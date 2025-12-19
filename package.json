@@ -1,0 +1,24 @@
+{
+  "name": "web-recorder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  
+  "scripts": {
+    "record": "ts-node manual/recorder.ts",
+    "replay": "ts-node automated/replay.ts",
+    "build": "tsc"
+  }
+,
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/nodemailer": "^7.0.4",
+    "playwright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.11"
+  }
+}
