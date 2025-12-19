@@ -9,7 +9,7 @@
       "firstP": "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands.",
       "metaDescription": ""
     },
-    "timestamp": 1766120874220,
+    "timestamp": 1766126434139,
     "isInitial": true
   },
   {
@@ -22,11 +22,23 @@
       "firstP": "Panthera[note 1] is a genus within the family Felidae, and one of two extant genera in the subfamily Pantherinae. It contains the largest living members of the cat family. There are five living species: the jaguar, leopard, lion, snow leopard and tiger. Numerous extinct species are also named, including the cave lion and American lion.",
       "metaDescription": ""
     },
-    "timestamp": 1766120874846
+    "timestamp": 1766126434590
+  },
+  {
+    "selector": "a[href=\"/wiki/American_lion\"]",
+    "url": "https://en.wikipedia.org/wiki/Panthera",
+    "target_href": "https://en.wikipedia.org/wiki/American_lion",
+    "content": {
+      "title": "American lion - Wikipedia",
+      "h1": "American lion",
+      "firstP": "The American lion (Panthera atrox (/ˈpænθərə ˈætrɒks/), with the species name meaning \"savage\" or \"cruel\",[2] also called the North American lion) is an extinct pantherine cat native to North America during the Late Pleistocene from around 129,000 to 12,800 years ago.[3][4][5][6] Genetic evidence suggests that its closest living relative is the lion (Panthera leo), with the American lion representing an offshoot from the lineage of the largely Eurasian cave lion (Panthera spelaea), from which it is suggested to have split around 165,000 years ago. Its fossils have been found across North America, from Canada to Mexico.[7][8] It was about 25% larger than the modern lion, making it one of the largest known felids to ever exist, and a dominant apex predator in North American ecosystems,[9] alongside the sabertooth cats Smilodon and Homotherium.[10] It has been suggested, like modern lions, they were social animals, although this is not known for sure.[11][12] Unlike modern lions, American lions may have been a diurnal predator.[13]",
+      "metaDescription": ""
+    },
+    "timestamp": 1766126436493
   },
   {
     "selector": "a[href=\"/wiki/Lion\"]",
-    "url": "https://en.wikipedia.org/wiki/Panthera",
+    "url": "https://en.wikipedia.org/wiki/American_lion",
     "target_href": "https://en.wikipedia.org/wiki/Lion",
     "content": {
       "title": "Lion - Wikipedia",
@@ -34,7 +46,7 @@
       "firstP": "The lion (Panthera leo) is a large cat of the genus Panthera, currently ranging only in Sub-Saharan Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail. It is sexually dimorphic; adult male lions are larger than females and have a more prominent mane that usually obscures the ears and extends to the shoulders.",
       "metaDescription": ""
     },
-    "timestamp": 1766120876659
+    "timestamp": 1766126440212
   },
   {
     "selector": "a[href=\"/wiki/Body_(biology)\"]",
@@ -46,6 +58,6 @@
       "firstP": "A body (Latin: corpus) is the physical material of an organism. It is only used for organisms which are in one part or whole. There are organisms which change from single cells to whole organisms: for example, slime molds. For them the term 'body' would mean the multicellular stage. Other uses:",
       "metaDescription": ""
     },
-    "timestamp": 1766120879214
+    "timestamp": 1766126442783
   }
 ]
