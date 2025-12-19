@@ -9,43 +9,43 @@
       "firstP": "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands.",
       "metaDescription": ""
     },
-    "timestamp": 1766136234609,
+    "timestamp": 1766136984069,
     "isInitial": true
   },
   {
-    "selector": "a[href=\"/wiki/Panthera\"]",
+    "selector": "a[href=\"/wiki/Temperate_broadleaf_and_mixed_forest\"]",
     "url": "https://en.wikipedia.org/wiki/Tiger",
-    "target_href": "https://en.wikipedia.org/wiki/Panthera",
+    "target_href": "https://en.wikipedia.org/wiki/Temperate_broadleaf_and_mixed_forest",
     "content": {
-      "title": "Panthera - Wikipedia",
-      "h1": "Panthera",
-      "firstP": "Panthera[note 1] is a genus within the family Felidae, and one of two extant genera in the subfamily Pantherinae. It contains the largest living members of the cat family. There are five living species: the jaguar, leopard, lion, snow leopard and tiger. Numerous extinct species are also named, including the cave lion and American lion.",
+      "title": "Temperate broadleaf and mixed forests - Wikipedia",
+      "h1": "Temperate broadleaf and mixed forests",
+      "firstP": "Temperate broadleaf and mixed forest is a temperate climate terrestrial habitat type defined by the World Wide Fund for Nature, with broadleaf tree ecoregions, and with conifer and broadleaf tree mixed coniferous forest ecoregions,[1] and include temperate rainforests.",
       "metaDescription": ""
     },
-    "timestamp": 1766136244201
+    "timestamp": 1766136986007
   },
   {
-    "selector": "a[href=\"/wiki/Pantherinae\"]",
-    "url": "https://en.wikipedia.org/wiki/Panthera",
-    "target_href": "https://en.wikipedia.org/wiki/Pantherinae",
+    "selector": "a[href=\"/wiki/North_America\"]",
+    "url": "https://en.wikipedia.org/wiki/Temperate_broadleaf_and_mixed_forests",
+    "target_href": "https://en.wikipedia.org/wiki/North_America",
     "content": {
-      "title": "Pantherinae - Wikipedia",
-      "h1": "Pantherinae",
-      "firstP": "The Pantherinae is a subfamily of the Felidae; it was named and first described by Reginald Innes Pocock in 1917 as only including the Panthera species,[2] but later also came to include the clouded leopards (genus Neofelis). The Pantherinae genetically diverged from a common ancestor between 9.32 to 4.47 million years ago and 10.67 to 3.76 million years ago.[3][4]",
+      "title": "North America - Wikipedia",
+      "h1": "North America",
+      "firstP": "North America is a continent[b] in the Northern and Western hemispheres.[c] North America is bordered to the north by the Arctic Ocean, to the east by the Atlantic Ocean, to the southeast by South America and the Caribbean Sea, and to the south and west by the Pacific Ocean. The region includes Middle America comprising the Caribbean, Central America, and Northern America.",
       "metaDescription": ""
     },
-    "timestamp": 1766136250158
+    "timestamp": 1766136989522
   },
   {
-    "selector": "a[href=\"/wiki/Common_ancestor\"]",
-    "url": "https://en.wikipedia.org/wiki/Pantherinae",
-    "target_href": "https://en.wikipedia.org/wiki/Common_ancestor",
+    "selector": "a[href=\"/wiki/Central_America\"]",
+    "url": "https://en.wikipedia.org/wiki/North_America",
+    "target_href": "https://en.wikipedia.org/wiki/Central_America",
     "content": {
-      "title": "Common descent - Wikipedia",
-      "h1": "Common descent",
-      "firstP": "Common descent is a concept in evolutionary biology applicable when one species is the ancestor of two or more species later in time. According to modern evolutionary biology, all living beings could be descendants of a unique ancestor commonly referred to as the last universal common ancestor (LUCA) of all life on Earth.[1][2][3][4]",
+      "title": "Central America - Wikipedia",
+      "h1": "Central America",
+      "firstP": "Central America[g] is a subregion of North America. Its political boundaries are defined as bordering Mexico to the north, Colombia to the southeast, the Caribbean to the east, and the Pacific Ocean to the southwest. Central America is usually defined as consisting of seven countries: Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and Panama. Within Central America is the Mesoamerican biodiversity hotspot, which extends from southern Mexico to southeastern Panama. Due to the presence of several active geologic faults and the Central America Volcanic Arc, there is a high amount of seismic activity in the region, such as volcanic eruptions and earthquakes, which has resulted in death, injury, and property damage.",
       "metaDescription": ""
     },
-    "timestamp": 1766136252783
+    "timestamp": 1766136991633
   }
 ]
